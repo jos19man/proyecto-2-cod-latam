@@ -31,9 +31,7 @@ body{
 
 header{
     display: flex;
-    /*flex-direction: row; este es un error*/ 
     justify-content: space-between;
-    /*margin: 20px; otro error que tengo*/
     align-items: center;
     padding:16px;
     height: 90px;
@@ -49,7 +47,7 @@ header{
 #descargar{
     background-color: #af599e;
     bottom: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     color: #fbfbfb;
     padding: 12px 20px;
     font-size: 20px;
@@ -57,13 +55,11 @@ header{
 
 }
 
-.imgRedonda{
+.imgRedonda {
     width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    max-width: 100%;
-    margin-bottom: 20px;
+    border-radius: 50%;
 }
+
 
 h1{ font-size: 36px;
     text-align: center;
@@ -84,15 +80,26 @@ p{
     width: 95px;
     
 }
-#menu{
+#menu {
     display: flex;
     font-size: 20px;
     }
 
-.menu-item{
+.menu-lista{
     padding: 16px;
     display: inline-block;
-    }
+}
+
+li.menu-lista:hover {
+    background-color: #af599e;
+    color: #fff;
+    tramsition: background-color 0.3s;
+}
+
+/*li.menu-lista:active {
+    background-color: #e769ce;
+    color: #fff;
+}*/
 
 .hola{
     width: 100%;
@@ -109,7 +116,6 @@ p{
     text-align: center;
     padding: 20px;
     border-radius: 20px;
-    /*no se por que el max width en este valor haciendo correciones lo coloque*/
     max-width: 600px;
 
 }
@@ -170,6 +176,27 @@ section{
     height: 90px;
     align-items: center;
 
+}
+
+@media (min-width: 1024px){
+    section {
+        flex-direction: row;
+        
+    }
+
+    article.hola{
+        text-justify:auto;
+        width: 50%;
+    }
+    
+    h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
 }
 
 
