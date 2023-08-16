@@ -10,3 +10,10 @@ e.target.classsList.add('active')
 }
 );
 });
+
+
+const cambioBtn = document.querySelector('#dark'),
+
+cambioBtn.addEventListener('click', function(){
+    document.body.classList.toggle('dark-mode');
+});

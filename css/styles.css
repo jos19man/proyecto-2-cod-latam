@@ -29,6 +29,11 @@ body{
     line-height: 1.2;
 }
 
+body.dark-mode{
+    color:#fbfbfb;
+    background-color: #5f5f5f;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -39,13 +44,21 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #fbfbfb;
+    background-color: #bfd7f8;
     box-shadow: 0 3px 10px -5px #5f5f5f;
-    
+
+#dark{
+    background-color: #bfd7f8;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+
+}
+
 
 }
 #descargar{
-    background-color: #af599e;
+    background-color: #4a81c9;
     bottom: 20px;
     border-radius: 20px;
     color: #fbfbfb;
@@ -91,7 +104,7 @@ p{
 }
 
 li.menu-lista:hover {
-    background-color: #af599e;
+    background-color: #4a81c9;
     color: #fff;
     tramsition: background-color 0.3s;
 }
@@ -112,7 +125,7 @@ li.menu-lista:hover {
 }
 
 .historia{
-    background-color: rgba(175, 89, 158, 0.3);
+    background-color: rgba(7, 119, 172, 0.3);
     text-align: center;
     padding: 20px;
     border-radius: 20px;
@@ -169,7 +182,7 @@ section{
 
 
 #footer{
-    background-color: #af599e;
+    background-color: #4a81c9;
     display: flex;
     justify-content: center;
     color: #fbfbfb;
