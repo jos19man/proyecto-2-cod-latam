@@ -109,10 +109,10 @@ li.menu-lista:hover {
     tramsition: background-color 0.3s;
 }
 
-/*li.menu-lista:active {
+li.menu-lista .active {
     background-color: #e769ce;
     color: #fff;
-}*/
+}
 
 .hola{
     width: 100%;
