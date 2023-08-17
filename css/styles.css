@@ -106,7 +106,7 @@ p{
 li.menu-lista:hover {
     background-color: #4a81c9;
     color: #fff;
-    tramsition: background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
 li.menu-lista .active {

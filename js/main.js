@@ -3,7 +3,7 @@ const menuItems = document.querySelectorAll('.menu-lista');
 
 menuItems.forEach(function(item){
 item.addEventListener('click', function(e){
-const activeItem = document.querySelector('.active');
+const activeItem = document.querySelector('.activo');
 activeItem.classList.remove('active');
 e.target.classsList.add('active')
 
